@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.reports, .messages .support{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.App {
+    text-align: center;
+    padding-top: 150px;
+}
+
+body {
+background: #eef4fb;
+}
+
+.gray-card-container {
+    max-width: 725px;
+    margin: auto;
+    background: #F6F6F6;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    padding: 40px 50px 30px;
+
+  
+}
+
+
+
+/* button css */
+.view-button {
+border-radius: 5px;
+background: #fff;
+color: #007ae6;
+border: none;
+
+-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+-moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+
+padding: 15px 30px;
+font-size: 16px;
+margin-top: 15px;
+}
+
+.active-button {
+    background: #fcba02;
+    color: #fff;
+}
+
+.delete-button:hover{
+    color: red;
+}
+
+.delete-button {
+   
+    transition: all .5s ease;
+    
+    border: 3px solid rgb(255, 156, 156);
+  margin-top: 10px;
+
+ 
+   
+    line-height: 1;
+    
+   
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+}
+/* button css ends */
+.view-selection-div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.App h1{
+    margin-bottom:10px;
+    text-decoration: underline;
+   
+   
+}
+
