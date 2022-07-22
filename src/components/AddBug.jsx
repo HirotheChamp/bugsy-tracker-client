@@ -16,7 +16,7 @@ const onSubmitHandler = e => {
         
   e.preventDefault();
 
-  axios.post('http://localhost:8000/api/bug/', { 
+  axios.post('https://bugsy-tracker.herokuapp.com/api/bug/', { 
     description, dev, priority
   })
       .then(res=>  console.log(res))

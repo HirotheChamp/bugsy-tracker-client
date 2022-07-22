@@ -26,7 +26,7 @@ const Registration = (props) => {
         
 
     
-        axios.post('http://localhost:8000/api/user/', { userName, email, password
+        axios.post('https://bugsy-tracker.herokuapp.com/api/user/', { userName, email, password
        })
             .then(res=> console.log(res))
             .catch(err=>{ 

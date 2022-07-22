@@ -12,7 +12,7 @@ const [refresh, setRefresh] = useState(true)
 
 useEffect(()=>{
  
-  axios.get('http://localhost:8000/api/bug/')
+  axios.get('https://bugsy-tracker.herokuapp.com/api/bug/')
       .then(res=>setBugs(res.data))
       .catch(err => console.error(err))
   
@@ -21,7 +21,7 @@ useEffect(()=>{
 
 
 const deleteBug = (bugId) => {
-  axios.delete('http://localhost:8000/api/bug/' + bugId)
+  axios.delete('https://bugsy-tracker.herokuapp.com/api/bug/' + bugId)
       .then(res => {
          
         // setRefresh(!refresh)

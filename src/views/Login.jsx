@@ -23,7 +23,7 @@ const Login = (props) => {
         
         e.preventDefault()
         
-    axios.post('http://localhost:8000/api/user/', { userName, email, password, confirmPassword
+    axios.post('https://bugsy-tracker.herokuapp.com/api/user/', { userName, email, password, confirmPassword
 })
 
     }
